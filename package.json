@@ -1,0 +1,20 @@
+{
+  "name": "diamondkata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "diamond": "./main.js"
+  },
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "keywords": [],
+  "author": "Big Laurentiu-Adrian",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "10.0.0",
+    "nyc": "^15.1.0",
+    "should": "^13.2.3"
+  }
+}
